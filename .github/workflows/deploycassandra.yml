@@ -8,8 +8,8 @@ jobs:
     - uses: azure/docker-login@v1
       with:
         login-server: acrprojectbose.azurecr.io
-        username: ${{ secrets.acr_acrprojectbose_username }}
-        password: ${{ secrets.acr_acrprojectbose_password }}
+        username: Projectbosetarun
+        password: gpz3yvncY9HwZuAHFiS5RE5uLrC6uwZDcstv+ze851+ACRCeRFA/
     
     - name: Build and push image to ACR
       id: build-image
