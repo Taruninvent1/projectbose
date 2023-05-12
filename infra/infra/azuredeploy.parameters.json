@@ -41,17 +41,17 @@
     "staticSites_name": {
       "value": "projectbosewebapp"
     },
-    "virtualNetworks_<your-resourcegroup-name>_vnet_externalid": {
-      "value": "/subscriptions/<your-subscription-id>/resourceGroups/<your-resourcegroup-name>/providers/Microsoft.Network/virtualNetworks/<your-resourcegroup-name>-vnet"
+    "virtualNetworks_ProjectBose_Tarun_vnet_externalid": {
+      "value": "/subscriptions/b1c5d345-c276-4f0d-a470-6b8e7360a22d/resourceGroups/<your-resourcegroup-name>/providers/Microsoft.Network/virtualNetworks/ProjectBose_Tarun-vnet"
     },
     "workspaces_DefaultWorkspace_externalid": {
-      "value": "/subscriptions/<your-subscription-id>/resourceGroups/DefaultResourceGroup-WEU/providers/Microsoft.OperationalInsights/workspaces/DefaultWorkspace-<your-subscription-id>-WEU"
+      "value": "/subscriptions/b1c5d345-c276-4f0d-a470-6b8e7360a22d/resourceGroups/DefaultResourceGroup-WEU/providers/Microsoft.OperationalInsights/workspaces/DefaultWorkspace-b1c5d345-c276-4f0d-a470-6b8e7360a22d-WEU"
     },
     "publicIPAddresses_externalid": {
-      "value": "/subscriptions/<your-subscription-id>/resourceGroups/MC_<your-resourcegroup-name>_projectboseaks_westeurope/providers/Microsoft.Network/publicIPAddresses/<your-subscription-id>"
+      "value": "/subscriptions/b1c5d345-c276-4f0d-a470-6b8e7360a22d/resourceGroups/MC_ProjectBose_Tarun_projectboseaks_westeurope/providers/Microsoft.Network/publicIPAddresses/b1c5d345-c276-4f0d-a470-6b8e7360a22d"
     },
-    "userAssignedIdentities_<your-resourcegroup-name>_agentpool_externalid": {
-      "value": "/subscriptions/<your-subscription-id>/resourceGroups/MC_<your-resourcegroup-name>_projectboseaks_westeurope/providers/Microsoft.ManagedIdentity/userAssignedIdentities/<your-resourcegroup-name>-agentpool"
+    "userAssignedIdentities_ProjectBose_Tarun_agentpool_externalid": {
+      "value": "/subscriptions/b1c5d345-c276-4f0d-a470-6b8e7360a22d/resourceGroups/MC_ProjectBose_Tarun_projectboseaks_westeurope/providers/Microsoft.ManagedIdentity/userAssignedIdentities/ProjectBose_Tarun-agentpool"
     }
   }
 
