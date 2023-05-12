@@ -7,7 +7,7 @@
     },
     "resourcegroupname": {
       "type": "String",
-      "defaultValue": "<your-resourcegroup-name>"
+      "defaultValue": "ProjectBose_Tarun"
     },
     "virtualNetwork_name": {
       "type": "String"
