@@ -380,7 +380,7 @@
         "tier": "Standard"
       },
       "properties": {
-        "repositoryUrl": "https://github.com/pranabpaul-tech/projectbose",
+        "repositoryUrl": "https://github.com/Taruninvent1/projectbose",
         "branch": "apps",
         "stagingEnvironmentPolicy": "Enabled",
         "allowConfigFileUpdates": true,
