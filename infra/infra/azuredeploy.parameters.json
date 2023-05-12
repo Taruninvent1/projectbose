@@ -3,10 +3,10 @@
   "contentVersion": "1.0.0.5",
   "parameters": {
     "subscription_id": {
-      "value": "<your-subscription-id>"
+      "value": "b1c5d345-c276-4f0d-a470-6b8e7360a22d"
     },
     "resourcegroupname": {
-      "value": "<your-resourcegroup-name>"
+      "value": "ProjectBose_Tarun"
     },
     "deployment_location": {
       "value": "westeurope"
