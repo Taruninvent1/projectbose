@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.5",
   "parameters": {
     "subscription_id": {
-      "value": "118ae9f9-9038-414c-ba64-08c5056602d1"
+      "value": "b1c5d345-c276-4f0d-a470-6b8e7360a22d"
     },
     "vault_name": {
       "value": "projectbosekeyvault"
@@ -21,7 +21,7 @@
       "value": "10.0.0.0/24"
     },
     "registries_name": {
-      "value": "projectboseacr"
+      "value": "projectbosetarun"
     },
     "registries_sku": {
       "value": "Standard"
