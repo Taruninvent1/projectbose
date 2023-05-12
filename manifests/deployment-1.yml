@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: "projectboseaks-88ec"
-          image: "projectboseacr.azurecr.io/projectboseaks"
+          image: "projectbosetarun.azurecr.io/projectboseaks"
           ports:
           - containerPort: 80
