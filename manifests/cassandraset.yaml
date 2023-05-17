@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: cassandra-container
-        image: acrprojectbose.azurecr.io/projectboseaks
+        image: projectbosetarun.azurecr.io/projectboseaks
         ports:
         - containerPort: 9160
           name: regularport
