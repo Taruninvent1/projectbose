@@ -48,6 +48,6 @@ jobs:
           manifests/mysqlset.yaml
           manifests/mysqlservice.yaml
         images: |
-          acrprojectbose.azurecr.io/projectboseaks:${{ github.sha }}-mysql
+          projectbosetarun.azurecr.io/projectboseaks:${{ github.sha }}-mysql
         imagepullsecrets: |
           projectboseadockerauth
