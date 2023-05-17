@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: mysql-container
-        image: acrprojectbose.azurecr.io/projectboseaks
+        image: projectbosetarun.azurecr.io/projectboseaks
         env:
         - name: MYSQL_ROOT_PASSWORD
           valueFrom:
