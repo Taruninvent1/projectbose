@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: "preparedatadeploy"
-          image: "acrprojectbose.azurecr.io/projectboseaks"
+          image: "projectbosetarun.azurecr.io/projectboseaks"
           ports:
           - containerPort: 80
