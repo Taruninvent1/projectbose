@@ -10,15 +10,15 @@ jobs:
     
     - uses: azure/docker-login@v1
       with:
-        login-server: acrprojectbose.azurecr.io
+        login-server: projectbosetarun.azurecr.io
         username: Projectbosetarun
         password: gpz3yvncY9HwZuAHFiS5RE5uLrC6uwZDcstv+ze851+ACRCeRFA/
     
     - name: Build and push image to ACR
       id: build-image
       run: |
-        docker build "$GITHUB_WORKSPACE/api/API/ResourcedetailsAPI" -f  "api/API/ResourcedetailsAPI/Dockerfile" -t acrprojectbose.azurecr.io/projectboseaks:${{ github.sha }}-resourcedetails --label dockerfile-path=api/API/ResourcedetailsAPI/Dockerfile
-        docker push acrprojectbose.azurecr.io/projectboseaks:${{ github.sha }}-resourcedetails
+        docker build "$GITHUB_WORKSPACE/api/API/ResourcedetailsAPI" -f  "api/API/ResourcedetailsAPI/Dockerfile" -t projectbosetarun.azurecr.io/projectboseaks:${{ github.sha }}-resourcedetails --label dockerfile-path=api/API/ResourcedetailsAPI/Dockerfile
+        docker push projectbosetarun.azurecr.io/projectboseaks:${{ github.sha }}-resourcedetails
     
     - uses: azure/k8s-set-context@v1
       with:
@@ -36,7 +36,7 @@ jobs:
     - uses: azure/k8s-create-secret@v1
       with:
         namespace: ${{ env.NAMESPACE  }}
-        container-registry-url: acrprojectbose.azurecr.io
+        container-registry-url: projectbosetarun.azurecr.io
         container-registry-username: ${{ secrets.acr_acrprojectbose_username }}
         container-registry-password: ${{ secrets.acr_acrprojectbose_password }}
         secret-name: projectboseadockerauth
@@ -49,6 +49,6 @@ jobs:
           manifests/deployResourcedetailsAPI.yml
           manifests/serviceResourcedetailsAPI.yml
         images: |
-          acrprojectbose.azurecr.io/projectboseaks:${{ github.sha }}-resourcedetails
+          projectbosetarun.azurecr.io/projectboseaks:${{ github.sha }}-resourcedetails
         imagepullsecrets: |
           projectboseadockerauth
